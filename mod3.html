@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Profil Pribadi</h1>
+    <div style="display: flex;">
+        <div style="display: flex; flex-direction: column; margin-right: 16px;">
+            <h2>Foto Profil</h2>
+            <!-- <img> digunakan untuk menampilkan image -->
+            <img src="michael.jpeg" alt="Profile Photo" style="width: 200px;">
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <h2>Video Perkenalan</h2>
+            <!-- <video> digunakan untuk menampilkan video -->
+            <video src="michael.mp4" height="230px" controls>Video</video>
+        </div>
+    </div>
+    <div>
+        <h1>Tentang Saya</h1>
+        <p>Halo, WebDev!</p>
+    </div>
+    <div>
+        <h1>Keterampilan</h1>
+        <!-- <table> digunakan untuk membuat data table -->
+        <table>
+            <!-- <tr> digunakan untuk mendeklarasi baris dari table -->
+            <tr>
+                <!-- <th> digunakan untuk mendeklarasi head row dari table -->
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+            <tr>
+                <!-- <td> digunakan untuk mengisi table data atau kolom dari sebuah row -->
+                <td>HTML/CSS</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h1>Hubungi Saya</h1>
+        <!-- <form> saya gunakan untuk menerima input -->
+        <form action="">
+            <!-- <input> untuk menerima input -->
+            Nama: <input type="text"><br>
+            Email: <input type="text"><br>
+            <!-- textarea untuk menerima input dengan area input yang dapat dirubah ukurannya -->
+            Pesan: <br><textarea name="Pesan"></textarea><br>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </div>
+    <div>
+        <h1>Media Sosial</h1>
+        <!-- <a> membuat link untuk menjadi akses viewer -->
+        <a href="">LinkedIn | </a>
+        <a href="">GitHub | </a>
+        <a href="">Twitter</a>
+    </div>
+</body>
+
+</html>
